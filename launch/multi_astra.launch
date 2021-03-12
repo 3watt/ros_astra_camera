@@ -6,9 +6,9 @@
   <arg name="3d_sensor"   default="astra"/>  <!-- kinect, asus_xtion_pro, astra -->
 
   <arg name="device_1_prefix"   default="head"/>
-  <arg name="device_2_prefix"   default="floor"/>
-  <arg name="device_1_id"   default="#1"/>
-  <arg name="device_2_id"   default="#2"/>
+  <arg name="device_2_prefix"   default="chest"/>
+  <arg name="device_1_id"   default="#2"/>
+  <arg name="device_2_id"   default="#1"/>
 
   <!-- Factory-calibrated depth registration -->
   <arg name="depth_registration"              default="true"/>
